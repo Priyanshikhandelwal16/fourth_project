@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 80px;
+    padding-top: 90px;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+#left h1{
+     font-size: 100px;
+     line-height: 75px;
+     padding-left: 70px;
+     font-family: sans-serif;
+}
+#left-bottom{
+    width: 100%;
+    height: 45%;
+    padding-left: 70px;
+}
+#color{
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 50px;
+    border: 0.2px solid black;
+}
+#color h5{
+    font-size: 15px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+#color1{
+    width: 20px;
+    height: 20px;
+    background-color: burlywood;
+    border-radius: 50%;
+    margin: 3px;
+    
+}
+#color2{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(29, 20, 8);
+    border-radius: 50%;
+   
+}
+#details{
+   margin-top: 135px;
+   padding: 40px 70px;
+   
+    
+}
+#details p{
+   margin-top: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5vw;
+}
+#right{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    padding-right: 150px;
+}
+#right h4{
+    display: flex;
+    align-items: center;
+    
+}
+#right-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+#right-top h4{
+    font-size: 18px;
+    padding-top: 40px;
+    
+}
+#right-top h5{
+    font-size: 13px;
+    padding-top: 40px;
+}
+#right img{
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
+    padding-bottom: -30px;
+}
+#black-gola{
+    background-color: #222222;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 83%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+#teda{
+    position: absolute;
+    left: 56%;
+    bottom: 6%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 22px;
+    font-weight: 600;
+   
+} 
